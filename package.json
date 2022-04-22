@@ -1,0 +1,21 @@
+{
+  "name": "gulp-tasks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "guplfile.js",
+  "scripts": {
+    "start":  "./node_modules/gulp-cli/bin/gulp.js",
+    "test":   "./node_modules/gulp-cli/bin/gulp.js --version",
+    "info":   "./node_modules/gulp-cli/bin/gulp.js --tasks",
+    "task":   "./node_modules/gulp-cli/bin/gulp.js $npm_config_name"
+  },
+  "author": "JoanOliver",
+  "license": "GNU GPL",
+  "dependencies": {
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-cli": "^2.3.0",
+    "gulp-uglify": "^3.0.2"
+  }
+}
